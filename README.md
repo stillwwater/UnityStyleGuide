@@ -76,8 +76,8 @@ Enclose objects that are only being used for debugging/testing and are not part 
 ```
 Root
 +---Assets
-+---Build           # Programs to aid development: compilers, asset managers etc.
-\---Tools
++---Build
+\---Tools           # Programs to aid development: compilers, asset managers etc.
 ```
 
 ## Assets
@@ -100,6 +100,24 @@ Assets
 |   +---Scenes
 |   \---UI
 \---Resources       # Configuration files, localization text and other user files.
+```
+
+## Assets (alternative)
+
+```
+Assets
++---Art
+|   +---Materials
+|   +---Models      # FBX and BLEND files
+|   +---Music
+|   +---Prefabs
+|   +---Sound       # Samples and sound effects
+|   +---Textures
+|   +---UI
++---Levels          # Unity scene files
++---Src             # C# scripts and shaders
+|   +---Framework
+|   \---Shaders
 ```
 
 ## Scripts

@@ -124,7 +124,7 @@ Use `Y up`, `-Z forward` and `uniform scale` when exporting.
 
 File extension: `PNG`, `TIFF` or `HDR`
 
-Choose either a `Specularity/Glossiness` or `Roughness/Metallic` workflow. This depends on the software being used and what your artists are more comfortable with. Specularity maps have the advantage of being having the possibility to be RGB maps instead of grayscale (useful for tinted metals), apart from that there is little difference between the result from either workflow.
+We use the `Roughness/Metallic` workflow.
 
 ### Texture Suffixes
 
@@ -251,7 +251,7 @@ To avoid exceptions and increase performance by skipping unnecessary comparisons
 
 ### Constants
 1. Variables and fields that can be made const should always be made const.
-2. If const isn’t possible, readonly can be a suitable alternative.
+2. If const isnÂ’t possible, readonly can be a suitable alternative.
 3. Prefer named constants to magic numbers.
 4. Capital snakecasing (MAX_LENGTH)
 
